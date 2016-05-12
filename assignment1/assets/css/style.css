@@ -293,8 +293,8 @@ p#footertext {
 	} 
 
 	div.hangman img, div.rpg img, div.trivia img, div.info img, div.rock img {
-		width: initial;
-		height: initial;
+		width: 275px;
+		height: 173px;
 	}
 
 	img#white {
@@ -375,6 +375,11 @@ p#footertext {
 	img#stackpic {
 		width: 60px;
 		height: 60px;
+	}
+
+	div.hangman img, div.rpg img, div.trivia img, div.info img, div.rock img {
+		width:400px;
+		height:230px;
 	}
 
 	img#white {
