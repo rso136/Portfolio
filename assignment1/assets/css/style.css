@@ -211,11 +211,59 @@ p#footertext {
  	color: #e0e0d2;
 }
 
+@media only screen and (max-width: 980px) {
+ 	
+ 	body {
+ 		width: 790px;
+ 		height: 1700px;
+ 	}
+
+ 	div.container {
+ 		width: 790px;
+ 		margin: 0 auto 0 auto;
+ 	}
+
+ 	div.invisheader {
+ 		width: 100%;
+ 		margin: 0 auto 0 auto;
+ 	}
+
+ 	section#main {
+ 		width: 450px;
+ 		float: left;
+ 		margin-top: 30px:;
+ 	}
+
+ 	section.sidebar {
+ 		width: 270px
+ 		float: right;
+ 	}
+
+ 	div.hangman img, div.rpg img, div.trivia img, div.info img, div.rock img {
+ 		width: 420px;
+ 		height: 250px;
+ 	}
+
+ 	img#white {
+ 		width: 0;
+ 		height: 0;
+ 	}
+
+ 	input {
+ 		width: 415px;
+ 	}
+
+ 	textarea {
+ 		width: 415px;
+ 	}
+	
+}	
+
 @media only screen and (max-width: 768px) {
 
 	body {
 		width: 760px;
-
+		height: auto;
 	}
 
 	div.container {
@@ -223,7 +271,7 @@ p#footertext {
 	}
 
 	div.invisheader {
-		width: 690px;
+		width: 760px;
 
 	}
 
@@ -244,10 +292,29 @@ p#footertext {
 		margin: 30px auto 0 auto; 
 	} 
 
+	div.hangman img, div.rpg img, div.trivia img, div.info img, div.rock img {
+		width: initial;
+		height: initial;
+	}
+
+	img#white {
+		width: 275px;
+		height: 173px;
+	}
+
 	img#gitpic {
 		margin-left: 30px;
 	}
 
+	input {
+		width: 600px;
+	}
+
+	textarea {
+		width: 600px;
+	}
+
+}	
 
 @media only screen and (max-width: 640px) {
 
@@ -322,4 +389,4 @@ p#footertext {
 	textarea {
 		width: 415px;
 	}
-
+}
